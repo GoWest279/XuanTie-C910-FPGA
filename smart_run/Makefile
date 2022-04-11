@@ -19,7 +19,7 @@ include ./setup/env_check.mk
 ################################################################################
 # Simulation related
 ################################################################################
-SIM = iverilog
+SIM = vcs
 DUMP = off
 THREADS = 4
 
@@ -81,7 +81,7 @@ endif
 
 ifeq ($(SIM), vcs)
 TIMESCALE := -timescale=1ns/100fs
-SIMULATOR_OPT := -sverilog -full64 -kdb -lca -debug_access +nospecify +notimingchecks +lint=TFIPC-L
+SIMULATOR_OPT := -j${THREADS} -sverilog -full64 -kdb -lca -debug_access+r+driver -debug_access +nospecify +notimingchecks +lint=TFIPC-L -full64 -LDFLAGS -Wl,--no-as-needed +vcs+dumpvars -P ${VERDI_HOME}/share/PLI/VCS/LINUX64
 SIMULATOR_DEF := +define+no_warning +define+TSMC_NO_WARNING
 SIMULATOR_LOG := -l comp.vcs.log
 ifeq ($(UPF), on)
@@ -221,6 +221,10 @@ else
         $(newline)   > make showcase ...)
 endif
 
+#gui:
+#ifeq($(SIM), vcs)
+#        cd ./work && ./simv -gui 
+#endif
 # Execute all cases
 regress:
 	rm -rf ./tests/regress/regress_result/*
@@ -232,6 +236,11 @@ regress:
 	cd ./tests/regress && perl report_gen.pl
 	cat ./tests/regress/regress_report
 
+###############################################################################
+gui:
+	cd ./work && ./simv -gui &
+wave:
+	cd ./work && verdi  -f file.f -ssf work/novas.fsdb &
 ################################################################################
 # Misc
 ################################################################################
