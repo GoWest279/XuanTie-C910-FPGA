@@ -1,3 +1,7 @@
+# Preface
+
+This repo aims to merge XuanTie-C910 microprocessor with Xilinx FPGA boards such as ZCU102 and Alveo U50. This is one of my part-time hobby and somehow not on on my priority list. Patient, LOL :)  
+
 # IP Readme
 
   Welcome to C910! Some key directories are shown below.
