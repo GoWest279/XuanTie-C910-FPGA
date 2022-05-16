@@ -128,7 +128,7 @@ compile:
 	@echo "  [THead-smart] Compiling smart now ... "
 	@echo "  [THead-smart] SIM = $(SIM)"
 ifeq ($(SIM), vcs)
-	@make -s cleansim
+	@make  cleansim
 	@cd ./work && vcs $(SIMULATOR_OPT) $(TIMESCALE) $(SIMULATOR_DEF) $(SIM_FILELIST) $(SIM_DUMP) $(SIMULATOR_LOG) $(SIMULATOR_POWER_OPT) 
 else 
     ifeq ($(SIM), nc) 
@@ -171,8 +171,8 @@ ifeq ($(CASE),)
         $(newline)   > make showcase ...)
 endif
 ifeq ($(findstring $(CASE), $(CASE_LIST)), $(CASE))
-	@make -s cleancase
-	@make -s $(CASE)_build
+	@make  cleancase
+	@make  $(CASE)_build
 else
 	$(error Argument CASE=xxx is not valid: \
         $(newline)   The list of valid cases can be obtained by executing: \
@@ -199,8 +199,8 @@ ifeq ($(CASE),)
         $(newline)   > make showcase ...)
 endif
 ifeq ($(findstring $(CASE), $(CASE_LIST)), $(CASE))
-	@make -s compile
-	@make -s buildcase CASE=$(CASE)
+	@make  compile
+	@make  buildcase CASE=$(CASE)
 ifeq ($(SIM), vcs)
 	cd ./work && ./simv -l run.vcs.log $(SIMV_POWER_OPT)
 else
@@ -230,7 +230,7 @@ regress:
 	rm -rf ./tests/regress/regress_result/*
 	@(for case in $(CASE_LIST) ; do \
 	 rm -rf ./work/* ; \
-	 make -s runcase CASE=$$case; \
+	 make  runcase CASE=$$case; \
 	 cp ./work/run_case.report ./tests/regress/regress_result/$$case.report; \
 	 done)
 	cd ./tests/regress && perl report_gen.pl
@@ -247,7 +247,7 @@ wave:
 .DEFAULT_GOAL := help
 
 memlist:
-	@make -s compile
+	@make  compile
 	${VERDI_HOME}/share/VIA/Apps/Bin/findInstDefWild.pl -dbdir ./work/simv.daidir -pattern "ct_spsram*" -scope "tb.x_soc.x_cpu_sub_system_axi.x_rv_integration_platform.x_cpu_top" -dump_def_name -outlog ./work/memlist.verdi.log
 	perl impl/memlist/memlist.pl 
 
