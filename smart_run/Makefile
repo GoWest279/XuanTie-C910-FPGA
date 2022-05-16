@@ -240,7 +240,7 @@ regress:
 gui:
 	cd ./work && ./simv -gui &
 wave:
-	cd ./work && verdi  -f file.f -ssf work/novas.fsdb &
+	cd ./work && verdi  -f ../file.f -ssf novas.fsdb -sv &
 ################################################################################
 # Misc
 ################################################################################
