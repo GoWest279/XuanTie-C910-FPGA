@@ -116,7 +116,7 @@ module tb();
     begin
   
       `RTL_MEM.ram0.mem[i][7:0] = 8'h0;
-         $display("%x", `RTL_MEM.ram0.mem[i][7:0]);
+      // $display("%x", `RTL_MEM.ram0.mem[i][7:0]);
       `RTL_MEM.ram1.mem[i][7:0] = 8'h0;
       `RTL_MEM.ram2.mem[i][7:0] = 8'h0;
       `RTL_MEM.ram3.mem[i][7:0] = 8'h0;
@@ -144,7 +144,7 @@ module tb();
     for(j=0;i<32'h4000;i=j/4)
     begin
       `RTL_MEM.ram0.mem[i][7:0] = mem_inst_temp[j][31:24];
-      $display("%d %x %x", j, `RTL_MEM.ram0.mem[i][7:0], mem_inst_temp[j][31:24]);
+      // $display("%d %x %x", j, `RTL_MEM.ram0.mem[i][7:0], mem_inst_temp[j][31:24]);
       `RTL_MEM.ram1.mem[i][7:0] = mem_inst_temp[j][23:16];
       `RTL_MEM.ram2.mem[i][7:0] = mem_inst_temp[j][15: 8];
       `RTL_MEM.ram3.mem[i][7:0] = mem_inst_temp[j][ 7: 0];
