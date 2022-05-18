@@ -1,2 +1,5 @@
 *.cache/
 xuantie.sim/
+xuantie.hw/
+xuantie.ip_user_files/
+xuantie.runs/

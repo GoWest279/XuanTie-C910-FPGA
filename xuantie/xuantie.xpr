@@ -60,9 +60,99 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/common/rtl/BUFGCE.v">
+      <File Path="$PSRCDIR/sources_1/imports/logical/common/BUFGCE.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/common/rtl/BUFGCE.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/BUFGCE.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/ahb/ahb.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/ahb/ahb.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/ahb/ahb2apb.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/ahb/ahb2apb.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/apb/apb.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/apb/apb.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/apb/apb_bridge.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/apb/apb_bridge.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/axi/axi2ahb.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi2ahb.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/axi/axi_err128.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi_err128.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/axi/axi_fifo.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi_fifo.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/axi/axi_fifo_entry.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi_fifo_entry.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/axi/axi_interconnect128.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi_interconnect128.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/axi/axi_slave128.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi_slave128.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -87,6 +177,15 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/common/clk_gen.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/clk_gen.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/imports/gen_rtl/common/rtl/compressor_32.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/common/rtl/compressor_32.v"/>
@@ -99,6 +198,15 @@
       <File Path="$PSRCDIR/sources_1/imports/gen_rtl/common/rtl/compressor_42.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/common/rtl/compressor_42.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/common/cpu_sub_system_axi.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/cpu_sub_system_axi.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -3793,6 +3901,42 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/common/err_gen.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/err_gen.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/mem/f_spsram_32768x128.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/mem/f_spsram_32768x128.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/mem/f_spsram_large.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/mem/f_spsram_large.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/common/fifo_counter.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/fifo_counter.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/fpga_ram.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/fpga_ram.v"/>
@@ -3811,9 +3955,54 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/gpio/gpio.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/gpio/gpio.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/gpio/gpio_apbif.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/gpio/gpio_apbif.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/gpio/gpio_ctrl.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/gpio/gpio_ctrl.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/mem/mem_ctrl.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/mem/mem_ctrl.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/imports/gen_rtl/iu/rtl/multiplier_65x65_3_stage.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/iu/rtl/multiplier_65x65_3_stage.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/cpu/rtl/openC910.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/cpu/rtl/openC910.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -3910,6 +4099,51 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/pmu/pmu.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/pmu/pmu.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/pmu/px_had_sync.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/pmu/px_had_sync.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/mem/ram.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/mem/ram.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/common/rv_integration_platform.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/rv_integration_platform.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/logical/pmu/sync.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/pmu/sync.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/imports/gen_rtl/common/rtl/sync_level2level.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/common/rtl/sync_level2level.v"/>
@@ -3928,549 +4162,99 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/cpu/rtl/openC910.v">
+      <File Path="$PSRCDIR/sources_1/imports/logical/pmu/tap2_sm.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/cpu/rtl/openC910.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/pmu/tap2_sm.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_1024x128.v">
+      <File Path="$PSRCDIR/sources_1/imports/logical/common/timer.v">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_1024x128.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/timer.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_1024x144.v">
+      <File Path="$PSRCDIR/sources_1/imports/logical/uart/uart.v">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_1024x144.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/uart/uart.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_1024x32.v">
+      <File Path="$PSRCDIR/sources_1/imports/logical/uart/uart_apb_reg.v">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_1024x32.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/uart/uart_apb_reg.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_1024x59.v">
+      <File Path="$PSRCDIR/sources_1/imports/logical/uart/uart_baud_gen.v">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_1024x59.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/uart/uart_baud_gen.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_1024x92.v">
+      <File Path="$PSRCDIR/sources_1/imports/logical/uart/uart_ctrl.v">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_1024x92.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/uart/uart_ctrl.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_128x104.v">
+      <File Path="$PSRCDIR/sources_1/imports/logical/uart/uart_receive.v">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_128x104.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/uart/uart_receive.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_128x144.v">
+      <File Path="$PSRCDIR/sources_1/imports/logical/uart/uart_trans.v">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_128x144.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/uart/uart_trans.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_16384x128.v">
+      <File Path="$PSRCDIR/sources_1/imports/logical/common/wid_entry.v">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_16384x128.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/wid_entry.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_2048x128.v">
+      <File Path="$PSRCDIR/sources_1/imports/logical/common/wid_for_axi4.v">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_2048x128.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/wid_for_axi4.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_2048x144.v">
+      <File Path="$PSRCDIR/sources_1/imports/logical/common/soc.v">
         <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_2048x144.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_2048x59.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_2048x59.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_2048x88.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_2048x88.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_256x100.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_256x100.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_256x144.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_256x144.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_256x52.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_256x52.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_256x54.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_256x54.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_256x59.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_256x59.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_256x7.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_256x7.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_32768x128.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_32768x128.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_4096x128.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_4096x128.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_4096x144.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_4096x144.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_4096x32.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_4096x32.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_4096x84.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_4096x84.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_64x108.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_64x108.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_65536x128.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_65536x128.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/fpga/rtl/ct_f_spsram_8192x32.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_8192x32.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/l2c/rtl/ct_spsram_1024x128.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_1024x128.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/l2c/rtl/ct_spsram_1024x144.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_1024x144.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/lsu/rtl/ct_spsram_1024x32.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_spsram_1024x32.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/ifu/rtl/ct_spsram_1024x59.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_spsram_1024x59.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/l2c/rtl/ct_spsram_1024x92.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_1024x92.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/l2c/rtl/ct_spsram_128x104.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_128x104.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/l2c/rtl/ct_spsram_128x144.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_128x144.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/l2c/rtl/ct_spsram_16384x128.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_16384x128.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/l2c/rtl/ct_spsram_2048x128.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_2048x128.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/l2c/rtl/ct_spsram_2048x144.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_2048x144.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/ifu/rtl/ct_spsram_2048x59.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_spsram_2048x59.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/l2c/rtl/ct_spsram_2048x88.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_2048x88.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/l2c/rtl/ct_spsram_256x100.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_256x100.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/l2c/rtl/ct_spsram_256x144.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_256x144.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/lsu/rtl/ct_spsram_256x52.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_spsram_256x52.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/lsu/rtl/ct_spsram_256x54.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_spsram_256x54.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/ifu/rtl/ct_spsram_256x59.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_spsram_256x59.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/lsu/rtl/ct_spsram_256x7.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_spsram_256x7.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/l2c/rtl/ct_spsram_32768x128.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_32768x128.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/l2c/rtl/ct_spsram_4096x128.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_4096x128.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/l2c/rtl/ct_spsram_4096x144.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_4096x144.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/lsu/rtl/ct_spsram_4096x32.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_spsram_4096x32.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/l2c/rtl/ct_spsram_4096x84.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_4096x84.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/l2c/rtl/ct_spsram_64x108.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_64x108.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/l2c/rtl/ct_spsram_65536x128.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_65536x128.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/lsu/rtl/ct_spsram_8192x32.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_spsram_8192x32.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/cpu/rtl/mp_top_golden_port.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/cpu/rtl/mp_top_golden_port.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/gen_rtl/cpu/rtl/top_golden_port.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../C910_RTL_FACTORY/gen_rtl/cpu/rtl/top_golden_port.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/soc.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -4497,7 +4281,7 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="openC910"/>
+        <Option Name="TopModule" Val="soc"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
@@ -4509,177 +4293,6 @@
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sim_1/imports/logical/ahb/ahb.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/ahb/ahb.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/ahb/ahb2apb.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/ahb/ahb2apb.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/apb/apb.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/apb/apb.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/apb/apb_bridge.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/apb/apb_bridge.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/axi/axi2ahb.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi2ahb.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/axi/axi_err128.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi_err128.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/axi/axi_fifo.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi_fifo.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/axi/axi_fifo_entry.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi_fifo_entry.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/axi/axi_interconnect128.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi_interconnect128.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/axi/axi_slave128.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi_slave128.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/common/clk_gen.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/clk_gen.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/common/cpu_sub_system_axi.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/cpu_sub_system_axi.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/common/err_gen.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/err_gen.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/mem/f_spsram_32768x128.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/mem/f_spsram_32768x128.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/mem/f_spsram_large.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/mem/f_spsram_large.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/common/fifo_counter.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/fifo_counter.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/gpio/gpio.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/gpio/gpio.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/gpio/gpio_apbif.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/gpio/gpio_apbif.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/gpio/gpio_ctrl.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/gpio/gpio_ctrl.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sim_1/imports/logical/tb/int_mnt.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/tb/int_mnt.v"/>
@@ -4689,8 +4302,168 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sim_1/imports/tb/tb.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/tb/tb.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/ahb/ahb.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/ahb/ahb.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/ahb/ahb2apb.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/ahb/ahb2apb.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/apb/apb.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/apb/apb.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/apb/apb_bridge.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/apb/apb_bridge.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/axi/axi2ahb.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi2ahb.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/axi/axi_err128.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi_err128.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/axi/axi_fifo.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi_fifo.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/axi/axi_fifo_entry.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi_fifo_entry.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/axi/axi_interconnect128.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi_interconnect128.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/axi/axi_slave128.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/axi/axi_slave128.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/mem/f_spsram_32768x128.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/mem/f_spsram_32768x128.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/mem/f_spsram_large.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/mem/f_spsram_large.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/gpio/gpio.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/gpio/gpio.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/gpio/gpio_apbif.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/gpio/gpio_apbif.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/gpio/gpio_ctrl.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/gpio/gpio_ctrl.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sim_1/imports/logical/mem/mem_ctrl.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/mem/mem_ctrl.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -4700,6 +4473,7 @@
       </File>
       <File Path="$PSRCDIR/sim_1/imports/logical/pmu/pmu.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/pmu/pmu.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -4709,6 +4483,7 @@
       </File>
       <File Path="$PSRCDIR/sim_1/imports/logical/pmu/px_had_sync.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/pmu/px_had_sync.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -4718,25 +4493,8 @@
       </File>
       <File Path="$PSRCDIR/sim_1/imports/logical/mem/ram.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/mem/ram.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/common/rv_integration_platform.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/rv_integration_platform.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/common/soc.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/soc.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -4745,6 +4503,7 @@
       </File>
       <File Path="$PSRCDIR/sim_1/imports/logical/pmu/sync.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/pmu/sync.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -4754,16 +4513,8 @@
       </File>
       <File Path="$PSRCDIR/sim_1/imports/logical/pmu/tap2_sm.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/pmu/tap2_sm.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/logical/common/timer.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/timer.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -4772,6 +4523,7 @@
       </File>
       <File Path="$PSRCDIR/sim_1/imports/logical/uart/uart.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/uart/uart.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -4781,6 +4533,7 @@
       </File>
       <File Path="$PSRCDIR/sim_1/imports/logical/uart/uart_apb_reg.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/uart/uart_apb_reg.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -4790,6 +4543,7 @@
       </File>
       <File Path="$PSRCDIR/sim_1/imports/logical/uart/uart_baud_gen.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/uart/uart_baud_gen.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -4799,6 +4553,7 @@
       </File>
       <File Path="$PSRCDIR/sim_1/imports/logical/uart/uart_ctrl.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/uart/uart_ctrl.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -4808,6 +4563,7 @@
       </File>
       <File Path="$PSRCDIR/sim_1/imports/logical/uart/uart_receive.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/uart/uart_receive.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -4817,7 +4573,78 @@
       </File>
       <File Path="$PSRCDIR/sim_1/imports/logical/uart/uart_trans.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/uart/uart_trans.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/common/clk_gen.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/clk_gen.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/common/cpu_sub_system_axi.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/cpu_sub_system_axi.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/common/err_gen.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/err_gen.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/common/fifo_counter.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/fifo_counter.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/common/rv_integration_platform.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/rv_integration_platform.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/common/soc.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/soc.v"/>
+          <Attr Name="ImportTime" Val="1649637052"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/logical/common/timer.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/timer.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -4826,6 +4653,7 @@
       </File>
       <File Path="$PSRCDIR/sim_1/imports/logical/common/wid_entry.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/wid_entry.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -4835,16 +4663,8 @@
       </File>
       <File Path="$PSRCDIR/sim_1/imports/logical/common/wid_for_axi4.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/common/wid_for_axi4.v"/>
-          <Attr Name="ImportTime" Val="1649637052"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/tb/tb.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../smart_run/logical/tb/tb.v"/>
           <Attr Name="ImportTime" Val="1649637052"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -5038,11 +4858,12 @@
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="10">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7vx485tffg1761-2" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" IncludeInArchive="true">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7vx485tffg1761-2" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
         <Step Id="synth_design"/>
       </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2019"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
